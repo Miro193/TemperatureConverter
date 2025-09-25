@@ -6,7 +6,7 @@ pipeline {
                 // Define Docker Hub credentials ID
                 DOCKERHUB_CREDENTIALS_ID = 'Docker_Miro2_Hub'
                 // Define Docker Hub repository name
-                DOCKERHUB_REPO = 'Miro193/temperatureconverter'
+                DOCKERHUB_REPO = 'miro193/temperatureconverter'
                 // Define Docker image tag
                 DOCKER_IMAGE_TAG = 'latest'
             }
