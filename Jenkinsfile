@@ -4,9 +4,9 @@ pipeline {
                 PATH = "/usr/local/bin:${env.PATH}"
 
                 // Define Docker Hub credentials ID
-                DOCKERHUB_CREDENTIALS_ID = 'Docker_Miro_Hub'
+                DOCKERHUB_CREDENTIALS_ID = 'Docker_Miro2_Hub'
                 // Define Docker Hub repository name
-                DOCKERHUB_REPO = 'miro193/temperatureconverter'
+                DOCKERHUB_REPO = 'Miro193/temperatureconverter'
                 // Define Docker image tag
                 DOCKER_IMAGE_TAG = 'latest'
             }
